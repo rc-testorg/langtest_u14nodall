@@ -3,22 +3,11 @@ language: node_js
 # Version number
 node_js:
   - 0.10
-  - 0.12
-  - 4.2.3
-  - 4.6.0
-  - 5.12.0
-  - 6.7.0
-  - 6.8.0
-  - 6.9.4
-  - 7.0.0
-  - 7.1.0
-  - 7.2.1
-  - 7.3.0
-  - 7.4.0
-  - iojs-1.0.0
-  - iojs-2.0.0
-  - iojs-3.3.1
-
+  - 0.11
+env:
+  global:
+    - secure: mzZS6ThW6jSooooVxSA090nn34s/MCK4Hh/2FfJHSQ32nd0igcnm+KWURJoUCCpab7wDlk35dZ7GZNoW7x9Ua3LO9cFuaRmc4vGJBQ/HPAE5VRNVplKXt0vR4p2+egjiDY6VIDgPG6JmqtZQHtfZFdHys9kktQePb61HAmfkzG5QR3POVVl1mVhSHJTAcD2o1nJOQw2hF5PL17ZfHqtXhdN5PNlOqfC+6wJnTSChvqHO/5azFKm7YUAwBnRI6yT/V8z+xemmnll6r1dgau74iGdEBqx1DKeBxJQzXAxJxScaoxh3TasldMrAjNpf+W7Zg819vMfw8BCThdtg3WUKVw==
+ 
  
 build:
   ci:
