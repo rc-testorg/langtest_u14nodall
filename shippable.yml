@@ -2,29 +2,24 @@ language: node_js
 
 # Version number
 node_js:
-  - 4.8.4   #updated versions
-  - 5.12.0  #updated versions
-  - 6.11.1  #updated versions
-  - 7.10.1  #updated versions
-  - 8.1.4   #updated versions
-  - 5.12.0 
-  - 6.7.0
-  - 6.8.0
-  - 6.9.4
-  - 7.0.0
-  - 7.1.0
-  - 7.2.1
-  - 7.3.0
-  - 7.4.0
-  - 8.1
-  - 8.2
-  - 6.11
-  
+  - 4.8   #.4   #updated versions
+  - 5.12  #.0   #updated versions  
+  - 6.7   #.0
+  - 6.8   #.0
+  - 6.9   #.4
+  - 6.11  #.1  #updated versions
+  - 7.0   #.0
+  - 7.1   #.0
+  - 7.2   #.1
+  - 7.3   #.0
+  - 7.4   #.0
+  - 7.10  #.1  #updated versions
+  - 8.1   #.4   #updated versions
+  - 8.2    #updated versions  
 #  - iojs-1.0.0 iojs versions and 0.10 to 4.x version removed
 #  - iojs-2.0.0 
 #  - iojs-3.3.1 
 
- 
 build:
   ci:
     - node --version
@@ -33,5 +28,3 @@ build:
     image_name: drydock/u14nodall
     image_tag: master
     pull: true 
-
-
